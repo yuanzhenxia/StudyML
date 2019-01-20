@@ -24,4 +24,4 @@ train_metrics = estimator.evaluate(input_fn=train_input_fn2)
 print("train metrics:%r"%train_metrics)
 
 eval_metrics = estimator.evaluate(input_fn=evalu_input_fn)
-print("eval metrics:%s"%eval_metrics)
+print("eval test  metrics:%s"%eval_metrics)
