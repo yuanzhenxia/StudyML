@@ -18,7 +18,7 @@ loss = tf.reduce_sum(tf.square(linear_model - y))
 # 创建 Session 用来计算模型
 sess = tf.Session()
 
-# 初始化变量  TEST STUDY
+# 初始化变量test fro mdofy
 init = tf.global_variables_initializer()
 sess.run(init)
 
