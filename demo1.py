@@ -2,7 +2,7 @@ import tensorflow as tf
 import os 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-# 创建变量 W 和 b 节点，并设置初始值
+# 创建变量 W 和 b 节点，并设置初始值-for test confilict
 W = tf.Variable([.1], dtype=tf.float32)
 b = tf.Variable([-.1], dtype=tf.float32)
 # 创建 x 节点，用来输入实验中的输入数据
